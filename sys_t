@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# CPU 温度（SoC 综合）
+temp=$(awk '{printf "%.1f°C",$1/1000}' /sys/class/thermal/thermal_zone0/temp)
+
+# CPU 频率
+#freq=$(awk '{printf "%.0fMHz",$1/1000}' /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq)
+
+# 输出
+echo "($temp)  "
+

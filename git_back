@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+export PATH=$PATH:/usr/bin:/usr/local/bin
+
+
+path="$HOME/.config/"
+
+repos=(i3 kitty mpd nvim picom polybar rofi)
+
+for DIR in "${repos[@]}"; do
+    $HOME/Custom/Scripts/git_auto "$path/$DIR"
+done
+
+echo "All Done"
+

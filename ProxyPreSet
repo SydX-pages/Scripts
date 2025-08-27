@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/home/sydx/Custom/Apps/clash//clash  -d /home/sydx/Custom/Apps/clash/
+
+ssh -i /home/sydx/.ssh/gcp -D 1080 -f -N -C -q xusyd1222@35.212.233.223
+
