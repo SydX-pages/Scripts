@@ -5,7 +5,7 @@ export PATH=$PATH:/usr/bin:/usr/local/bin
 
 path="$HOME/.config/"
 
-repos=(i3 kitty mpd nvim picom polybar rofi)
+repos=(i3 kitty mpd nvim picom polybar rofi Scripts)
 
 for DIR in "${repos[@]}"; do
     $HOME/Custom/Scripts/git_auto "$path/$DIR"
