@@ -2,6 +2,7 @@
 
 export PATH=$PATH:/usr/bin:/usr/local/bin
 
+/usr/bin/ssh -i ~/.ssh/gcp xusyd1222@35.212.233.223
 
 path="$HOME/.config/"
 
